@@ -32,7 +32,7 @@ run-all() {
 		build-libass
 		#build-aom # disabled as it is extremely slow
 		configure-ffmpeg
-    build-ffmpeg
+    # build-ffmpeg
     # configure-ffmpeg.mp4-scale
     # build-ffmpeg.mp4-scale
     # configure-ffmpeg.png-to-mp4
@@ -52,3 +52,4 @@ main() {
 }
 
 main "$@"
+echo "DONE:, $( basename "$0" )"
